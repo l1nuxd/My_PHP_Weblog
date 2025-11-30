@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 # Database configuration
 db_config = {
-    'host': 'localhost',
-    'user': 'dbuser',
-    'password': 'dbpassword',
-    'database': 'Webapp'
+    'host': 'xxxxxxxx',
+    'user': 'xxxxxxxx',
+    'password': 'xxxxxxxxxx',
+    'database': 'xxxxxxxxx'
 }
 
 @app.route('/api/user/<int:user_id>', methods=['GET'])
