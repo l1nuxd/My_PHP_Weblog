@@ -1,0 +1,5 @@
+Allow from all
+<FilesMatch "sql.php">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
